@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Colores</title>
-    <link rel="stylesheet" href="/../Programacion/ProyectosReales/style.css">
+    <link rel="stylesheet" href="./../style.css">
 </head>
 <body>
 
     <h2 class="titulo">Colores por nombres</h2>
-    <p>EN css se puede poner un color usando un nombre prederterminado</p>
+    <p>En css se puede poner un color usando un nombre prederterminado</p>
     <p class="examples">Ejemplos de colores por nombre</p>
     <p style="color:tomato">Color Tomato</p>
     <p style="color:orange">Color Orange</p>
@@ -18,13 +18,38 @@
 
     <h2 class="titulo">Color de Fondo/Backgraound Color</h2>
     <p>Los coloeres de fondo se pueden ponear en varias cajas de css colo en los titulos, parrafos, divs, etc...</p>
-    <img src="/../Programacion/ProyectosReales/assets/css/colors/img1.jpg" alt="Como se pone color en el fondo">
+    <img src="./../assets/css/colors/img1.jpg" alt="Como se pone color en el fondo">
 
-    <h2 class="titulo">RGB Colores</h2>
-    <p>RGB son las siglas en ingles de (Red,Green,Blue) que son los parametros que se utilizan que van del 0 al 255 en los 3 apartados.</p>
+    <h2 class="titulo">Colores RGB</h2>
+    <p>RGB son las siglas en ingles de (Red,Green,Blue) que son los parametros que se utilizan para representar todo el espectro de color,van del 0 al 255 en los 3 apartados.</p>
     <p>Si se pone (255,0,0) El color va a ser rojo</p>
+    <p>Si se pone (0,0,255) El color va a ser azul</p>
+    <p>Si se pone (0,255,0) El color va a ser verde</p>
+    <p class="examples">Ejemplos de colores RGB</p>
+    <img src="./../assets/css/colors/img2.jpg" alt="Algunos colores RGB">
 
+    <h2 class="titulo">Colores Hexadecimal</h2>
+    <P>En css, los colores se puden seleccionr usando valores hexadecimales como: #rrggbb</P>
+    <p>Donde rr (red),gg (green) y bb (blue) son valores hexadecimales igual a 00 y ff (lo msmo que en RGB de 0-255)</p>
+    <p>Por ejemplo, #ff0000 en pantalla es rojo, por que rojo es el unico valor puesto con un valor (ff) y los otros valores estan puestos en (00) lo que quiere decir que no estan.</p>
+    <p>El color negro se hace poniendo todos los valores en 0, asi: #000000</p>
+    <p>El color blanco se hace poniendo todos los valores en su maximo, que es ff, asi: #ffffff</p>
+    <p class="examples">Ejemplos de colores hexadecimales en css</p>
+    <img src="./../assets/css/colors/img3.jpg" alt="Ejemplo de colores hexadecimales">
 
+    <h2 class="titulo">Color HSL</h2>
+    <P>En css tambien se puede utilizar el formato HSL para representar colores </P>
+    <p>hsl(hue,saturation,lightness)</p>
+    <p>Hue: el tinte o hue en ingles se usa del 0 a 360 grados donde 0 es el color rojo, 120 es el color verde y 240 el color azul</p>
+    <p>Saturaion es un porcentaje el cual va de 0% que es un color mas grisacio, y el 100% que es el color al maximo.</p>
+    <p>lightness: es otro porcentaje que ca de 0% que es negro, 50% es un termino medio entre claros y oscuros, y 100% que es la maxima iluminacion blanca</p>
+    <p class="examples">Ejemplo de como crear algunos color con hsl</p>
+    <img src="./../assets/css/colors/img4.png" alt="Ejemplo de como se crean algunos color usando el formato hsl">
+    <p class="examples">Ejemplo de como se usa la saturacion</p>
+    <img src="./../assets/css/colors/img5.jpg" alt="Ejemplo de como se ussa la saturacion en hsl">
+
+    <p class="examples">Ejemplo de como se una la ilumincaion o lightness en hsl</p>
+    <img src="./../assets/css/colors/img6.jpg" alt="Ejemplo de como se usa la iluminacion en hsl">
 
 </body>
 </html>
