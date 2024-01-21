@@ -1,0 +1,13 @@
+body {
+    text-align: center;
+    background-color: gray;
+    color: aliceblue;
+}
+.titulo{
+    color: blue;
+    font-size: 4em;
+}
+.examples{
+    font-size: 3em;
+    color: red;
+}
