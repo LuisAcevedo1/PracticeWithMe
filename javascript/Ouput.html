@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Output</title>
+    <link rel="stylesheet" href="./../style.css">
+</head>
+<body>
+    <h2 class="atitulo">Formas de mostrar en pantalla salidas</h2>
+    <p>EN javaScript en pantalla tenemos diferentes formas de mostrar salidas</p>
+    <p>Escribiendo dentro de los elementos HTML usando innerHTML</p>
+    <p>Escribiendo como salida en html usando documunt.write()</p>
+    <p>Escribiendo una alerta de texto usando window.aler()</p>
+    <p>Escribiendo dentro de la consola del navegador usando console.log()</p>
+
+    <h2 class="titulo">Usando innerHTML</h2>
+    <p>para usar innerHTML se tiene que llamar desde un archivo javaScript al elemento donde queramos mostrar el elemento en este caso por ejemplo con un ID</p>
+    <p class="examples">Ejemplo de como se usa innerHTML</p>
+    <form>
+        <label for="nombre">Ingresa tu nombre</label>
+        <input type="text" id="nombre">
+        <br>
+        <label for="apellido">Ingresa tu apellido</label>
+        <input type="text" id="apellido">
+        <br>
+        <input type="button" value="Enviar" onclick="Saludo()">
+    </form>
+    <p id="resultado"></p>
+
+    <h2 class="titulo">Usando document.write()</h2>
+    <p>Document.write() es otra forma de escribir dentro del DOM de html, para ello se debe de saber que el elemento a mostrar se vera en donde se llame a la funcion y no en otro lugar o si no es una funcion se llamara al final del archivo.</p>
+    <p cl></p>
+
+    <script src="./Output.js"></script>
+</body>
+</html>
