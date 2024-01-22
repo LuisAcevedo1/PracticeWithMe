@@ -7,3 +7,6 @@ function Saludo(){
     document.getElementById("resultado").innerHTML = mensaje;
 }
 
+function usarDocumentWrite() {
+    document.write("<p>¡Hola, este texto fue escrito con document.write()!</p>");
+}
