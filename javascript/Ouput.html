@@ -33,6 +33,21 @@
     <p class="examples">Ejemplo de como usar document.write()</p>
     <button onclick="usarDocumentWrite()">Usar document.write()</button>
 
+    <h2 class="titulo">Usando window.alert()</h2>
+    <p>Window.alert sirve para mostrar informacion fuera del DOM, esto quiere decir que el elemento se mostrar en un cuadro de texto</p>
+    <p class="examples">Ejemplo de como usar window.alert</p>
+    <button onclick="alerta()">Usar window.alert()</button>
+
+    <h2 class="titulo">Usando console.log()</h2>
+    <p>console.log() es un metodo de salida que no se muestra en el DOM, la forma de mostrar es en la consola del navegador o cualquier otra consola como la terminal.</p>
+    <p class="examples">Ejemplo de consola</p>
+    <form>
+        <label for="consola">Escribe aqui lo que que quieras mostrar en consola.</label>
+        <br>
+        <input type="text" id="consola">
+        <input type="button" value="Enviar" onclick="consolas()">
+    </form>
+    <p id="consolaVacia"></p>
     
 </body>
 <script src="./Output.js"></script>
