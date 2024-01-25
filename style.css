@@ -11,3 +11,12 @@ body {
     font-size: 3em;
     color: red;
 }
+
+.notas {
+    background-color: blanchedalmond;
+    color: black;
+}
+.negritas{
+    font-weight: 900;
+    color: black;
+}
