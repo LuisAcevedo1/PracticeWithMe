@@ -1,0 +1,66 @@
+#ejemplo1{
+    display: inline;
+    background-color: lightblue;
+}  
+
+#cajita1{
+    display: inline;
+    border: 1px black solid;
+    background-color: green;
+    opacity: 1;
+    padding: 10px;
+}
+#cajita2{
+    display: inline;
+    border: 1px black solid;
+    background-color: green;
+    opacity: 0.6;
+    padding: 10px;
+}
+#cajita3{
+    display: inline;
+    border: 1px black solid;
+    background-color: green;
+    opacity: 0.3;
+    padding: 10px;
+}
+#cajita4{
+    display: inline;
+    border: 1px black solid;
+    background-color: green;
+    opacity: 0.1;
+    padding: 10px;
+}
+
+#cajitaRGBA1{
+    display: inline;
+    border: 1px black solid;
+    background-color: orange;
+    opacity: 100%;
+    padding: 10px;
+}
+#cajitaRGBA2{
+    display: inline;
+    border: 1px black solid;
+    background-color: orange;
+    opacity: 60%;
+    padding: 10px;
+}
+#cajitaRGBA3{
+    display: inline;
+    border: 1px black solid;
+    background-color: orange;
+    opacity: 30%;
+    padding: 10px;
+}
+#cajitaRGBA4{
+    display: inline;
+    border: 1px black solid;
+    background-color: orange;
+    opacity: 10%;
+    padding: 10px;
+}
+ 
+#backgrounArena{
+    background-image: url(./../assets/css/backgrounds/bg1.jpg);
+}

@@ -15,22 +15,51 @@
 </head>
 <body>
      <h2 class="titulo">Atributos en HTML</h2>
-     <ul>
-        <li>Todos los elementos HTML tiene atributos</li>
-        <li>Los atributos proveen informacion adicional acerca de los elementos</li>
-        <li>Los atributos siempre se especificcan en la etiqueta de inicio</li>
-        <li>Los atributos normalmente vienen en pares nombre/valor como: <span class="negritas">nombre="valor"</span></li>
-     </ul>   
+        <ul>
+            <li>Todos los elementos HTML tiene atributos</li>
+            <li>Los atributos proveen informacion adicional acerca de los elementos</li>
+            <li>Los atributos siempre se especificcan en la etiqueta de inicio</li>
+            <li>Los atributos normalmente vienen en pares nombre/valor como: <span class="negritas">nombre="valor"</span></li>
+        </ul>   
      <hr>
      <h2 class="titulo">El atibuto href</h2>
-     <p>La etiqueta <span class="negrita">a</span> define un link. El atributo href especifica la URL donde la pagina va a redirigir con el link</p>
-     <p class="examples">Ejemplo de un link</p>
-     <a href="https://www.youtube.com/">Ejemplo de link a youtube</a>
-     <img src="./../assets/html/attributes/img1.png" alt="Ejemplo de como se crea un link">
+        <p>La etiqueta <span class="negrita">a</span> define un link. El atributo href especifica la URL donde la pagina va a redirigir con el link</p>
+        <p class="examples">Ejemplo de un link</p>
+        <a href="https://www.youtube.com/">Ejemplo de link a youtube</a>
+        <img src="./../assets/html/attributes/img1.png" alt="Ejemplo de como se crea un link">
      
      <h2 class="titulo">El atributo src</h2>
-     <p>La etiqueta <span class="negrita">img</span> es usada para mostrar imagenes dentro de la pagina HTML. El atributo <span class="negrita">src</span> especifica el lugar donde la imagen se encuentra</p>
-     <p class="examples">Ejemplo de una imagen</p>
-     <img src="./../assets/html/attributes/img2.png" alt="Esta es una imagen de prueba">
+        <p>La etiqueta <span class="negrita">img</span> es usada para mostrar imagenes dentro de la pagina HTML. El atributo <span class="negritas">src</span> especifica el lugar donde la imagen se encuentra</p>
+        <p class="examples">Ejemplo de una imagen</p>
+        <img src="./../assets/html/attributes/img2.png" alt="Esta es una imagen de prueba">
+
+        <p>Hay 2 formas de especificar una URL en el atributo src</p>
+        <p><span class="negritas">1.URL Absoluta:</span>enlaces a una imagen externa alojada en otro sitio web. Ejemplo: src="https://www.w3schools.com/images/img_girl.jpg" .</p>
+        <p class="notas"><span class="negritas">Nota:</span>Las imágenes externas pueden tener derechos de autor. Si no obtiene permiso para usarlo, es posible que esté infringiendo las leyes de derechos de autor. Además, no puedes controlar las imágenes externas; se puede eliminar o cambiar repentinamente.</p>
+        <p><span class="negritas">2. URL relativa:</span>enlaces a una imagen alojada en el sitio web. Aquí, la URL no incluye el nombre de dominio. Si la URL comienza sin barra, será relativa a la página actual. Ejemplo: src="img_girl.jpg". Si la URL comienza con una barra diagonal, será relativa al dominio. Ejemplo: src="/images/img_girl.jpg".</p>
+        <p>Consejo: casi siempre es mejor utilizar URL relativas. No se romperán si cambias de dominio</p>
+
+    <h2 class="titulo">Los atributos de ancho y alto</h2>
+        <p>La etiqueta <span class="negritas">img</span>  también debe contener los atributos widthy height, que especifican el ancho y el alto de la imagen (en píxeles):</p>
+        <img src="./../assets/html/attributes/img3.png" alt="Muestra de como poner alto y ancho">
+
+    <h2 class="titulo">El atributo alt</h2>
+        <p>El atributo alt requerido para la etiqueta <span class="negritas">img</span> especifica un texto alternativo para una imagen, si por algún motivo la imagen no se puede mostrar. Esto puede deberse a una conexión lenta, a un error en el atributo src o si el usuario utiliza un lector de pantalla</p>
+        <img src="./../assets/html/attributes/img4.png" alt="Ejemplo del atributo alt en una imagen">
+
+    <h2 class="titulo">El atributo de estilo</h2>
+        <p>El atributo style se utiliza para agregar estilos a un elemento, como color, fuente, tamaño y más.</p>
+        <img src="./../assets/html/attributes/img5.png" alt="imagen de ejemplo del atributo style">
+
+    <h2 class="titulo">EL atributo de idioma</h2>
+        <p>Siempre debes incluir el langatributo dentro de la <span class="negritas">HTML</span> tiqueta, para declarar el idioma de la página Web. Esto está destinado a ayudar a los motores de búsqueda y navegadores.</p>
+        <p>El siguiente ejemplo especifica el inglés como idioma:</p>
+        <img src="./../assets/html/attributes/img6.png" alt="Ejemplp de como se pone el atributo lang">
+
+    <h2 class="titulo">El atributo de titulo</h2>
+        <p>El atributo title define información adicional sobre un elemento.</p>
+        <p>El valor del atributo de título se mostrará como información sobre herramientas cuando pase el mouse sobre el elemento:</p>
+        <img src="./../assets/html/attributes/img7.png" alt="Ejemplo de ocmo se pone un titulo">
+        <p title="Un titulo" style="color:yellow">Pasa el mouse para ver el titulo</p>
 </body>
 </html>
