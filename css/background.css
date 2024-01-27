@@ -64,3 +64,14 @@
 #backgrounArena{
     background-image: url(./../assets/css/backgrounds/bg1.jpg);
 }
+
+#repeticionHorizontal{
+    background-image: url(./../assets/css/backgrounds/bg-minion-vertical.jpg);
+    background-repeat: repeat-x;
+}
+
+#repeticionVerticalmente{
+    margin: 40px;
+    background-image: url(./../assets/css/backgrounds/bg-kirbyGuapo.jpg);
+    background-repeat: repeat-y;
+}
