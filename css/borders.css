@@ -1,0 +1,22 @@
+#bordePrimero{
+    border-style: solid;
+    border-color: aqua;
+}
+
+#bordeSegundo{
+    border-bottom: solid;
+    border-color: red;
+}
+
+#bordeTercero{
+    border-style: solid;
+    border-radius: 50px;
+}
+
+
+#bordeCuarto{
+    border-left: solid;
+    border-color: blue;
+    background-color: aqua;
+    color: black;
+}

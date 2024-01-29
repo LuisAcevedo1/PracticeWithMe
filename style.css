@@ -1,6 +1,6 @@
 body {
     text-align: center;
-    background-color: gray;
+    background-color: black;
     color: aliceblue;
 }
 .titulo{
@@ -18,5 +18,5 @@ body {
 }
 .negritas{
     font-weight: 900;
-    color: black;
+    color: red;
 }

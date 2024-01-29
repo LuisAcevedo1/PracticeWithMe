@@ -63,15 +63,50 @@
  
 #backgrounArena{
     background-image: url(./../assets/css/backgrounds/bg1.jpg);
+    background-size: 30%;
 }
 
 #repeticionHorizontal{
     background-image: url(./../assets/css/backgrounds/bg-minion-vertical.jpg);
     background-repeat: repeat-x;
+    background-size: 20%;
 }
 
 #repeticionVerticalmente{
-    margin: 40px;
     background-image: url(./../assets/css/backgrounds/bg-kirbyGuapo.jpg);
     background-repeat: repeat-y;
+    background-size: 60%;
+    background-position: center;
+}
+
+#posicionando{
+    background-image: url(./../assets/css/backgrounds/Youtube_logo.png);
+
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 30%
+}
+
+#fixedAsta{
+    background-image: url(./../assets/css/backgrounds/bgAstaFixed.png);
+    background-repeat: no-repeat;
+    background-position: right  top;
+    
+    background-attachment: fixed;
+}
+
+#fixedAsta p {
+    margin-right: 200px;
+}
+
+#scrollMimosa{
+    background-image: url(./../assets/css/backgrounds/bgMimosaFixed.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 400px;
+    background-attachment: scroll;
+}
+#scrollMimosa p {
+    text-align: right;
+    margin-left: 300px;
 }
