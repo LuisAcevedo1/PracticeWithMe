@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margenes CSS</title>
+    <link rel="stylesheet" href="./../style.css">
+    <link rel="stylesheet" href="./margin.css">
+</head>
+<body>
+    <h2 class="titulo">Margenes en CSS</h2>
+        <p>Los márgenes se utilizan para crear espacio alrededor de los elementos, fuera de los bordes definidos.</p>
+        <p id="elemento1">Este elemento tiene un margen de 70px</p>
+
+    <h2 class="titulo">Margenes CSS</h2>
+        <P>Las propiedades margin CSS se utilizan para crear espacio alrededor de los elementos, fuera de los bordes definidos.</P>
+        <p>Con CSS, tienes control total sobre los márgenes. Hay propiedades para establecer el margen para cada lado de un elemento (superior, derecho, inferior e izquierdo).</p>
+
+    <h2 class="titulo">Margenes Individuales en CSS</h2>
+        <p>CSS tiene propiedades para especificar el margen para cada lado de un elemento:</p>
+        <div style="border: 1px solid blue;">
+            <p style="margin-top:50px; border:inherit;">margirn-top</p>
+            <p style="margin-right:50px; border: inherit;">margirn-right</p>
+            <p style="margin-bottom:50px; border:inherit">margirn-bottom</p>
+            <p style="margin-left:50px; border:inherit">margirn-left</p>
+        </div>
+        <p>Todas las propiedades de margen pueden tener los siguientes valores:</p>
+        <p>auto - el navegador calcula el margen</p>
+        <p>longitud : especifica un margen en px, pt, cm, etc.</p>
+        <p>% : especifica un margen en % del ancho del elemento contenedor</p>
+        <p>heredar: especifica que el margen debe heredarse del elemento principal</p>
+
+    <h2>Margen Shorthand</h2>
+        <p>Para acortar el código, es posible especificar todas las propiedades de margen en una sola propiedad.</p>
+        <p>Es como muchas propiedades, como las manesillas del reloj</p>
+
+    <h2>El valor automatico</h2>
+        <p>Puede configurar la propiedad de margen para autocentrar horizontalmente el elemento dentro de su contenedor.</p>
+        <p>Luego, el elemento ocupará el ancho especificado y el espacio restante se dividirá en partes iguales entre los márgenes izquierdo y derecho.</p>
+        <div style="width: 300px;margin: auto;border: 1px solid red;">
+            <p>Ejemplo de un elemento que se centra con margen automatico</p>
+        </div>
+
+    <h2 class="titulo">El valor heredado</h2>
+        <p>EL valor hererado solo hace que el elemento hijo tomo las propiedades del elemento padre</p>
+        
+    <!--En este caso se ve como se ocupa la propiedad inherit en el ejemplo de margenes individuales-->
+
+    <h2>Colapso del margen CSS</h2>
+        <hr>
+            <p>A veces dos margenes colapsan en uno solo</p>
+        <hr>
+        <p>Los márgenes superior e inferior de los elementos a veces se contraen en un solo margen que es igual al mayor de los dos márgenes.</p>
+        <p>¡Esto no sucede en los márgenes izquierdo y derecho! ¡Solo márgenes superior e inferior!</p>
+        <p class="examples">Ejemplos de colapso de margenes</p>
+        <p id="primero">Este es arriba</p>
+        <p id="segundo">Este es abajo</p>
+        <p>En el ejemplo anterior, el elemento arriba tiene un margen inferior de 50 px y el elemento abajo tiene un margen superior establecido en 20 px.</p>
+        <p>El sentido común parecería sugerir que el margen vertical entre arriba y abajo sería un total de 70px (50px + 20px). Pero debido al colapso del margen, el margen real termina siendo de 50 px.</p>
+</body>
+</html>
