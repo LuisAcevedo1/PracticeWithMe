@@ -14,6 +14,31 @@
         <p style="padding:70px;border:1px solid #32b16b;margin: 30px;">Este elemento tiene un relleno de 70px.</p>
     
     <h2 class="titulo">Relleno CSS</h2>
-    
+        <p>Las propiedades padding CSS se utilizan para generar espacio alrededor del contenido de un elemento, dentro de los bordes definidos.</p>
+        <p>Con CSS, tienes control total sobre el relleno. Hay propiedades para configurar el relleno para cada lado de un elemento (superior, derecho, inferior e izquierdo).</p>
+
+    <h2 class="titulo">Padding - Lados individuales</h2>
+        <p>CSS tiene propiedades para especificar el relleno de cada lado de un elemento:</p>
+        <div style="color: red;">
+            <p>padding-top</p>
+            <p>padding-right</p>
+            <p>padding-bottom</p>
+            <p>padding-left</p>
+        </div>
+        <p>Todas las propiedades de relleno pueden tener los siguientes valores:</p>
+        <div style="color: red;">
+            <p>longitud : especifica un relleno en px, pt, cm, etc.</p>
+            <p>% : especifica un relleno en % del ancho del elemento contenedor</p>
+            <p>heredar: especifica que el relleno debe heredarse del elemento principal</p>
+        </div>
+
+    <h2 class="titul">Rellenno y ancho del elemento</h2>
+        <p>La propiedad CSS widthespecifica el ancho del área de contenido del elemento. El área de contenido es la parte dentro del relleno, borde y margen de un elemento ( el modelo de caja ).</p>
+        <p>Entonces, si un elemento tiene un ancho específico, el relleno agregado a ese elemento se agregará al ancho total del elemento. Este es a menudo un resultado indeseable.</p>
+
+        <p class="example">Ejemplo de padding con width</p>
+        <div style="width: 300px; padding: 25px; border: 1px solid green;">
+            <p>Aquí, al elemento <b>div</b> se le asigna un ancho de 300px. Sin embargo, el ancho real del elemento <b>div</b> será 350 px (300 px + 25 px de relleno izquierdo + 25 px de relleno derecho):</p>
+        </div>
 </body>
 </html>
