@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de caja</title>
+    <link rel="stylesheet" href="./../style.css">
+</head>
+<body>
+    <h1>Modelo de caja CSS</h1>
+    <hr>
+        <p>Todos los elementos HTML pueden considerarse cuadros.</p>
+    <hr>
+    <h2>El modelo de caja CSS</h2>
+        <p>En CSS, el término "modelo de caja" se utiliza cuando se habla de diseño y disposición.</p>
+        <p>El modelo de cuadro CSS es esencialmente un cuadro que envuelve cada elemento HTML. Consta de: contenido, relleno, bordes y márgenes. La siguiente imagen ilustra el modelo de caja:</p>
+        <img src="./../assets/css/boxModel/modelBox.png" alt="imagen del box model">
+        <p>Explicación de las diferentes partes:</p>
+        <p><span class="negritas">Contenido:</span> el contenido del cuadro, donde aparecen el texto y las imágenes.</p>
+        <p><span class="negritas">Padding:</span> borra un área alrededor del contenido. El acolchado es transparente.</p>
+        <p><span class="negritas">Border:</span> un borde que rodea el relleno y el contenido.</p>
+        <p><span class="negritas">Margin:</span> borra un área fuera del borde. El margen es transparente.</p>
+        <p>El modelo de caja nos permite agregar un borde alrededor de los elementos y definir el espacio entre elementos.</p>
+    <hr><br><hr>
+    <h2>Ancho y Alto de un Elemento</h2>
+    <p>Para establecer correctamente el ancho y el alto de un elemento en todos los navegadores, necesita saber cómo funciona el modelo de caja.</p>
+    <p class="notas"><b>Importante:</b> cuando configuras las propiedades de ancho y alto de un elemento con CSS, simplemente estableces el ancho y el alto del área de contenido . Para calcular el ancho y alto total de un elemento, también debes incluir el relleno y los bordes.</p>
+    <p>Aquí está el cálculo:</p>
+    <img src="./../assets/css/boxModel/calculos.png" alt="En esta imagen se muestran los calculos del box model">
+    <p>El ancho total de un elemento debe calcularse así:</p>
+    <p>Ancho total del elemento = ancho + relleno izquierdo + relleno derecho + borde izquierdo + borde derecho</p>
+    <p>La altura total de un elemento debe calcularse así:</p>
+    <p>Altura total del elemento = altura + relleno superior + relleno inferior + borde superior + borde inferior</p>
+    <p class="notas"><b>Nota:</b> La propiedad de margen también afecta el espacio total que ocupará el cuadro en la página, pero el margen no está incluido en el tamaño real del cuadro. El ancho y alto total del cuadro terminan en el borde.</p>
+</body>
+</html>

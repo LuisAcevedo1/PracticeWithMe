@@ -1,12 +1,10 @@
 body {
     text-align: center;
-    background-color: black;
+    background-color: #1d2935;
     color: aliceblue;
+    padding: 10px;
 }
-.titulo{
-    color: blue;
-    font-size: 4em;
-}
+
 .examples{
     font-size: 3em;
     color: red;
@@ -19,4 +17,29 @@ body {
 .negritas{
     font-weight: 900;
     color: red;
+}
+a{
+    display: block;
+    background-color: #04a96d;
+    text-decoration: none;
+    color: #dcfff9;
+    border: 1px solid #dcfff9;
+    border-radius: 15px;
+    padding: 2px;
+    
+}
+a:visited{
+    display: block;
+    background-color: #04a96d;
+    text-decoration: none;
+    color: #dcfff9;
+    border: 1px solid #dcfff9;
+    border-radius: 15px;
+    padding: 2px;
+}
+h2{ 
+    display: inline-block;
+    border-bottom: 5px solid #04a96d;
+    padding: 3px;
+    margin: 20px;
 }

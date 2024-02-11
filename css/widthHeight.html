@@ -4,10 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alto y Ancho</title>
+    <link rel="stylesheet" href="./../style.css">
 </head>
 <body>
     <h2 class="titulo">Alto, ancho y ancho máximo de CSS</h2>
+    <hr>
         <p>El CSS las propiedades height y width se utilizan para establecer la altura y el ancho de un elemento.</p>
         <p>La propiedad max-width CSS se utiliza para establecer el ancho máximo de un elemento.</p>
+    <hr>
+        <p style="border: 1px solid rgb(38, 192, 97);
+        width: 100%; height: 50px;">Este elemento tiene una altura de 50 pixeles y un ancho del 100%</p>
+    <hr>
+    <h2>CSS configuracion de alto y ancho</h2>
+        <p>Las propiedades height y width se utilizan para establecer la altura y el ancho de un elemento.</p>
+        <p>Las propiedades de alto y ancho no incluyen relleno, bordes ni márgenes. Establece la altura/ancho del área dentro del relleno, borde y margen del elemento.</p>
+    <hr>
+    <h2>Valores de ancho y ancho de css</h2>
+        <p>Las propiedades heighty widthpueden tener los siguientes valores:</p>
+        <p><span class="negritas">auto</span>- Esto es lo predeterminado. El navegador calcula el alto y el ancho.</p>
+        <p><span class="negritas">length</span>- Define el alto/ancho en px, cm, etc.</p>
+        <p><span class="negritas">%</span>- Define la altura/ancho en porcentaje del bloque contenedor.</p>
+        <p><span class="negritas">initial</span>- Establece la altura/ancho a su valor predeterminado</p>
+        <p><span class="negritas">inherit</span>- La altura/ancho se heredará de su valor principal.</p>
+    <hr>
+        <p class="examples">Ejemplos de altura y ancho de css</p>
+        <p style="background-color: darkslategray;height: 180px; width: 50%;padding: 20px;">Este elemento tiene una altura de 200 pixeles y un ancho del 50%</p>
+    <hr>
+        <p style="background-color: darkslategray;height: 100px; width: 500px;">Este elemento tiene una altura de 100 pixeles y un ancho de 500 pixeles</p>
+    <hr>
+        <pa class="notas"><b>Nota</b>: Recuerde que las propiedades heighty widthno incluyen relleno, bordes ni márgenes. ¡Establecen la altura/ancho del área dentro del relleno, borde y margen del elemento!</p>
+    <hr><br><hr>
+    <h2>Configuración del ancho máximo</h2>
+        <p>La propiedad <span class="negritas">max-width</span> se utiliza para establecer el ancho máximo de un elemento.</p>  
+        <p>Se puede especificar <span class="negritas">max-width</span> en valores de longitud , como px, cm, etc., o en porcentaje (%) del bloque contenedor, o establecerse en ninguno (esto es el valor predeterminado. Significa que no hay un ancho máximo).</p>     
+        <p>El problema con el <span class="negritas">div</span> anterior ocurre cuando la ventana del navegador es más pequeña que el ancho del elemento (500 px). Luego, el navegador agrega una barra de desplazamiento horizontal a la página.</p>
+        <p>Usarlo <span class="negritas">max-width</span> en su lugar, en esta situación, mejorará el manejo de ventanas pequeñas por parte del navegador</p>
+        <p class="notas"><b>Consejo:</b> arrastre la ventana del navegador a un ancho inferior a 500 px para ver la diferencia entre los dos divs.</p>
+        <p style="background-color: powderblue;height: 100px;max-width: 500px;">Este elemento tiene una altura de 100px y un ancho de 500 px</p>
+        <p class="notas"><b>Nota:</b> Si por alguna razón usa la propiedad width y la propiedad max-width en el mismo elemento, y el valor de la propiedad width es mayor que la propiedad max-width;se utilizará la propiedad max-width (y se ignorará la propiedad width).</p>
+        <img src="./../assets/css/widtgHeight/Propiedades.png" alt="Muestra todas la propiedades de dimension en css">
 </body>
 </html>
